@@ -82,46 +82,58 @@ header nav ul li a:hover {
 }
 
 .about-me p {
+    color: #f45f56;
     margin-left: 20px;
 }
 
 .img-jessica {
     max-width: 100%;
     padding-left: 60px;
+    padding-right: 250px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .img-oliver {
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: 80px;
 }
 
 
 .my-projects {
-    background-color: #648348;
+    background-color: #b9d1a4;
     margin-top: 100px;
 }
 
 .my-projects h2 {
     color: #fcf8f1;
     font-size: 25px;
-    margin-top: 40px;
     margin-left: 60px;
+    margin-top: 50px;
+}
+
+.horiseon-img,
+.horiseon h3,
+.horiseon-text p {
+    display: inline-block;
+    text-align: left;
+}
+
+.horiseon h3 {
+    font-size: 25px;
+    color: #648348;
+}
+
+.horiseon-text p {
+    color: #e5645e;
+    margin-left: 20px;
 }
 
 .horiseon-img {
     padding-left: 30px;
     padding-right: 0px;
     padding-top: 40px;
-    padding-bottom: 20px;
-}
-
-.run-buddy-img {
-    padding-left: 800px;
-    padding-right: 0px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .contact-me {
@@ -146,7 +158,6 @@ header nav ul li a:hover {
     font-size: 20px;
     color: #f45f56;
     text-decoration: none;
-
 }
 
 footer {
@@ -159,20 +170,23 @@ footer {
     background-position: 60%;
 }
 
+footer h2, 
+footer a {
+    display:inline-flex;
+    justify-content: space-between;
+}
+
 footer h2 {
     display: flex;
-    justify-content: space-between;
     color: #e5645e;
     font-size: 30px;
     margin: 0;
     flex-wrap: wrap;
-
 }
 
 footer a {
     text-align: right;
     text-decoration: none;
-    justify-content: space-between;
     flex-wrap: wrap;
     display: flex;
 }
